@@ -27,7 +27,7 @@ function Sidebar() {
       <div className="flex flex-col gap-6">
         <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors">
           <a
-            href="https://github.com/faizisyellow"
+            href="https://github.com/faissalmaulana"
             target="_blank"
             rel="noopener noreferrer"
             onMouseEnter={() => setGithubFill("#4635B1")}

@@ -26,7 +26,7 @@ function Banner() {
           </p>
           <div className="flex gap-3 mt-5">
             <a
-              href="https://github.com/faizisyellow"
+              href="https://github.com/faissalmaulana"
               target="_blank"
               rel="noopener noreferrer"
               onMouseEnter={() => setGithubFill("#4635B1")}

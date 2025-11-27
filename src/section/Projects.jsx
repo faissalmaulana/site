@@ -8,7 +8,7 @@ const projectsData = [
     description:
       "Falcon is a CLI tool for generating Go REST API blueprints. It lets you choose the router library and database for your project. The blueprint already includes Authentication, Swagger documentation, Zap logger, and follows the Handler–Service–Repository pattern.",
     image: "/images/falcon.png",
-    links: { github: "https://github.com/faizisyellow/falcon" },
+    links: { github: "https://github.com/faissalmaulana/falcon" },
     stacks: [
       {
         text: "Go",
@@ -32,7 +32,7 @@ const projectsData = [
     description:
       "SoHo is a CLI tool that assists in REST API development by generating CRUD files. It is designed to be compatible with projects that generate by the FALCON CLI.",
     image: "/images/soho.png",
-    links: { github: "https://github.com/faizisyellow/soho" },
+    links: { github: "https://github.com/faissalmaulana/soho" },
     stacks: [
       {
         text: "Go",

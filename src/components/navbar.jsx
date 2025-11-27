@@ -91,7 +91,7 @@ function Navbar() {
             <File fill={fileFill} />
           </a>
           <a
-            href="https://github.com/faizisyellow"
+            href="https://github.com/faissalmaulana"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

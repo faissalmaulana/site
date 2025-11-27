@@ -4,11 +4,11 @@ import TitleSection from "../components/titleSection";
 const skillsData = {
   languages: {
     color: TagColors.GREEN,
-    items: ["Go", "Typescript", "Javascript"],
+    items: ["Go", "Typescript", "Javascript", "Php"],
   },
   "frameworks/libraries": {
     color: TagColors.BLUE,
-    items: ["Chi", "Cobra"],
+    items: ["Chi", "Cobra", "Laravel"],
   },
   databases: {
     color: TagColors.PURPLE,

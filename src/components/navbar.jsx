@@ -13,7 +13,6 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [githubFill, setGithubFill] = useState("none");
   const [linkedinFill, setLinkedinFill] = useState("none");
-  const [fileFill, setFileFill] = useState("none");
 
   // lock body scroll when overlay is open (mobile only)
   useEffect(() => {
@@ -81,14 +80,8 @@ function Navbar() {
           FM
         </a>
         <div className="flex items-center gap-4">
-          <a
-            href="/files/cv.pdf"
-            download="Faissal_Maulana_CV.pdf"
-            aria-label="Download CV"
-            onMouseEnter={() => setFileFill("#4635B1")}
-            onMouseLeave={() => setFileFill("none")}
-          >
-            <File fill={fileFill} />
+          <a href="/resume/resume.pdf">
+            <File fill={"none"} />
           </a>
           <a
             href="https://github.com/faissalmaulana"
@@ -139,12 +132,7 @@ function Navbar() {
           >
             EXPERIENCE
           </a>
-          <a
-            href="/files/cv.pdf"
-            download="Faissal_Maulana_CV.pdf"
-            onClick={() => setIsOpen(false)}
-            className="mobile-link"
-          >
+          <a href="/resume/resume.pdf" className="mobile-link">
             RESUME
           </a>
         </div>
